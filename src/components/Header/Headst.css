@@ -1,0 +1,25 @@
+.cursor{
+    cursor: pointer;
+}
+h1{
+    font-size: 2.5vw;
+}
+
+.Space{
+    color: rgb(20, 121, 252);
+}
+.Space:hover{
+    color: rgb(0, 17, 255) ;
+}
+
+.threeD{
+    color : rgb(0, 0, 0);
+}
+.threeD:hover{
+    color: rgb(255, 0, 191);
+}
+
+li{
+    font-size: 2.5vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
