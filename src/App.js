@@ -1,16 +1,19 @@
-import './App.css';
-import { useRef,useState } from 'react';
-import { ReactDOM } from 'react';
-import { Route,Routes,BrowserRouter } from 'react-router-dom';
-import Head from './components/Header/Head';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-function App() {
-  return (
-    <BrowserRouter>
-      <div>
+import Head from "./components/Header/Head";
+import Main from "./components/Main/Main"
+
+function App(){
+  return(
+    <div>
+      <BrowserRouter>
         <Head/>
-      </div>
-    </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main/>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
